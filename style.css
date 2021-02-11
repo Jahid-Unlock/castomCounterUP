@@ -1,0 +1,32 @@
+.counter{
+    padding: 55px 0;
+    background: #CB3727;
+}
+.single-counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.single-counter .counter-icon i{
+    font-size: 50px;
+}
+
+.single-counter h2{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.single-counter span{
+    width: 60px;
+    height: 2px;
+    display: block;
+    background:#FFFFFF;
+}
+.single-counter p{
+    font-size: 18px;
+    padding: 10px;
+    text-transform: capitalize;
+}
